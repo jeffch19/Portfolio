@@ -1,0 +1,43 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:  40px;
+  border-bottom:  1px solid #333;
+  background-image: url('../assets/navbar-background.jpg'); 
+  background-size: 100% 100%;
+  background-repeat: no-repeat; 
+  position: fixed; 
+  top:  0; 
+  left:  0; 
+  right:  0; 
+  z-index:  1000; 
+  width:  100%; 
+}
+
+.navbar h1 {
+  margin:  0;
+  font-size:  1.5em;
+}
+
+.navbar ul {
+  list-style: none;
+  margin:  0;
+  padding:  0;
+  display: flex;
+  gap:  1em;
+}
+
+.navbar li {
+  margin:  0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar a.active {
+  font-weight: bold;
+}

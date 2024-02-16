@@ -1,13 +1,13 @@
 // Footer.js
 import React from 'react';
+import './Footer.css';
 
 const Footer = () => {
     return (
-        <footer>
-            <p>Connect with me:</p>
+        <footer className='footer'>
             <ul>
-                <li><a href="link-to-github-profile" target="_blank">GitHub</a></li>
-                <li><a href="link-to-linkedin-profile" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/jeffch19"><img src="/github.jpg" alt="GitHub" className="footer-image" /></a></li>
+<li><a href="https://www.linkedin.com/in/jeff-cummings-782a24170/"><img src="/linkedin.png" alt="LinkedIn" className="footer-image" /></a></li>
                 <li><a href="link-to-third-platform-profile" target="_blank">Third Platform</a></li>
             </ul>
         </footer>

@@ -1,5 +1,4 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -41,8 +40,20 @@
   color: #888;
 }
 
-body {
-  
-  min-height:   100vh;
-  background-color: #fffdd0; 
+
+/* App.css */
+html, body {
+  height:  100%;
+  margin:  0;
+  display: flex;
+  background-color: #fffdd0;
 }
+
+/* Make the main content grow to fill available space */
+main {
+  flex-grow:  1;
+}
+
+
+
+
