@@ -60,7 +60,12 @@ main {
   min-height: calc(100vh -  140px); /* Ensure the main content takes up at least the full height of the viewport minus the height of the navbar */
   margin-top:  140px; /* Adjust the top margin to account for the fixed navbar */
   display: block;
+  text-align: left;
+  line-height: 3;
 }
 
+.p-text {
+  line-height: 2;
+}
 
 
