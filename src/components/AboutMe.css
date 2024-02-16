@@ -1,0 +1,6 @@
+.main-content img {
+  width:  150px; /* Set the width of the image */
+  height: auto; /* Maintain the aspect ratio */
+  border-radius:  50%; /* Make the image circular */
+  object-fit: cover; /* Ensure the image covers the area without stretching */
+}

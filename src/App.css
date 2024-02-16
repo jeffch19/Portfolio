@@ -54,6 +54,13 @@ main {
   flex-grow:  1;
 }
 
+.main-content {
+  padding:  2rem; /* Add some padding around the main content */
+  background-color: #fffdd0; /* Set a background color */
+  min-height: calc(100vh -  140px); /* Ensure the main content takes up at least the full height of the viewport minus the height of the navbar */
+  margin-top:  140px; /* Adjust the top margin to account for the fixed navbar */
+  display: block;
+}
 
 
 
