@@ -4,8 +4,8 @@ import React from 'react';
 const Header = () => {
     return (
         <header>
-            <h1>Developer's Name</h1>
-            <nav>
+            <nav className="navbar">
+            <h1>Jeffrey Cummings</h1>
                 <ul>
                     <li><a href="#about" className="active">About Me</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
