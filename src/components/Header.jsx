@@ -2,6 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // Import the Link component
 import './Header.css';
+import { NavLink } from 'react-router-dom'; // Import the NavLink component
 
 const Header = () => {
     return (
@@ -9,10 +10,10 @@ const Header = () => {
             <nav className="navbar">
                 <h1>Jeffrey Cummings</h1>
                 <ul>
-                    <li><Link to="/" className="active">About Me</Link></li> 
-                    <li><Link to="/portfolio">Portfolio</Link></li> 
-                    <li><Link to="/contact">Contact</Link></li> 
-                    <li><Link to="/resume">Resume</Link></li> 
+                <li><NavLink to="/" activeClassName="active">About Me</NavLink></li>  
+                    <li><NavLink to="/portfolio">Portfolio</NavLink></li>  
+                    <li><NavLink to="/contact">Contact</NavLink></li>  
+                    <li><NavLink to="/resume">Resume</NavLink></li>  
                 </ul>
             </nav>
         </header>
