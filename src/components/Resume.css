@@ -1,0 +1,4 @@
+/* Resume.css */
+.main-content ul li {
+  margin-bottom:  -1em; /* Adjust this value to reduce space between bullet points */
+}
