@@ -61,6 +61,7 @@ const Contact = () => {
   const [submitting, setSubmitting] = useState(false);
 
   return (
+    <div className='main-content'>
     <section id="contact">
       <h2>Contact</h2>
       <form id="contact-form" onSubmit={handleSubmit}>
@@ -102,6 +103,7 @@ const Contact = () => {
         <button type="submit" disabled={submitting}>Submit</button>
       </form>
     </section>
+    </div>
   );
 };
 

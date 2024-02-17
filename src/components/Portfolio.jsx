@@ -11,7 +11,7 @@ const Portfolio = () => {
     return (
         <section id="portfolio">
             <h2>Portfolio</h2>
-            <div className="project">
+            <div className="main-content">
                 <img src={project1} alt="Project 1" />
                 <h3>Project 1</h3>
                 <p>Description of the project.</p>
