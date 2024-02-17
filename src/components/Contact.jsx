@@ -1,5 +1,6 @@
 // Contact.jsx
 import React, { useState, useCallback } from 'react';
+import './Contact.css';
 
 const useForm = (initialState, validate) => {
   const [values, setValues] = useState(initialState);
@@ -66,7 +67,7 @@ const Contact = () => {
       <h2>Contact</h2>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div className="form-group">
-          <label htmlFor="name">Name</label>
+          <label htmlFor="name">Name:</label>
           <input
             type="text"
             id="name"
@@ -78,7 +79,7 @@ const Contact = () => {
           {errors.name && <p className="error">{errors.name}</p>}
         </div>
         <div className="form-group">
-          <label htmlFor="email">Email</label>
+          <label htmlFor="email">Email:</label>
           <input
             type="email"
             id="email"
@@ -90,7 +91,7 @@ const Contact = () => {
           {errors.email && <p className="error">{errors.email}</p>}
         </div>
         <div className="form-group">
-          <label htmlFor="message">Message</label>
+          <label htmlFor="message">Message:</label>
           <textarea
             id="message"
             name="message"
