@@ -70,3 +70,79 @@ main {
 }
 
 
+/* media queries */
+
+
+/* Media queries for different device sizes */
+@media (max-width:  1200px) {
+  /* Styles for viewports up to  1200px wide */
+  #root {
+      width:  95vw; /* Adjust the width as needed */
+  }
+  .main-content {
+      padding:  1rem; /* Adjust the padding as needed */
+  }
+  /* Adjust font sizes for smaller screens */
+  h1, h2, h3, h4, h5, h6 {
+      font-size:  1.5em; /* Adjust font size as needed */
+  }
+  /* Stack elements vertically */
+  .navbar, .main-content {
+      flex-direction: column;
+  }
+}
+
+@media (max-width:  992px) {
+  /* Styles for viewports up to  992px wide */
+  #root {
+      width:  98vw; /* Adjust the width as needed */
+  }
+  .main-content {
+      padding:  1rem; /* Adjust the padding as needed */
+  }
+  /* Adjust font sizes for smaller screens */
+  h1, h2, h3, h4, h5, h6 {
+      font-size:  1.2em; /* Adjust font size as needed */
+  }
+  /* Stack elements vertically */
+  .navbar, .main-content {
+      flex-direction: column;
+  }
+}
+
+@media (max-width:  768px) {
+  /* Styles for viewports up to  768px wide */
+  #root {
+      width:  100vw; /* Adjust the width as needed */
+  }
+  .main-content {
+      padding:  1rem; /* Adjust the padding as needed */
+  }
+  /* Adjust font sizes for smaller screens */
+  h1, h2, h3, h4, h5, h6 {
+      font-size:  1em; /* Adjust font size as needed */
+  }
+  /* Stack elements vertically */
+  .navbar, .main-content {
+      flex-direction: column;
+  }
+}
+
+@media (max-width:  576px) {
+  /* Styles for viewports up to  576px wide */
+  #root {
+      width:  100vw; /* Adjust the width as needed */
+  }
+  .main-content {
+      padding:  1rem; /* Adjust the padding as needed */
+  }
+  /* Adjust font sizes for smaller screens */
+  h1, h2, h3, h4, h5, h6 {
+      font-size:  0.8em; /* Adjust font size as needed */
+  }
+  /* Stack elements vertically */
+  .navbar, .main-content {
+      flex-direction: column;
+  }
+}
+
