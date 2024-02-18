@@ -3,13 +3,13 @@
 /* Style for the labels to appear above the input fields */
 .form-group label {
   display: block;
-  margin-bottom:  -1em; /* Reduce space below the label */
+  margin-bottom:  -0.5em; /* Reduce space below the label */
 }
 
 /* Style for the message textarea to be bigger */
 #message {
   height:  150px; /* Adjust the height as needed */
-  width:  300%;
+  width:  50%;
   resize: vertical; /* Allow vertical resizing only */
-  margin-bottom:  -1em;
+  margin-bottom:  -0.5em;
 }

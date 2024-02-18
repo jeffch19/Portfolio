@@ -4,3 +4,7 @@
   border-radius:  50%; /* Make the image circular */
   object-fit: cover; /* Ensure the image covers the area without stretching */
 }
+
+.main-content {
+  width: 90%; /*or 90vw*/
+}

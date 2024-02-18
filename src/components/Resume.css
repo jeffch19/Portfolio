@@ -1,6 +1,8 @@
 /* Resume.css */
 
-
+.main-content > :first-child {
+  margin-top:  -3em; /* Adjust the value as needed */
+}
 
 .main-content ul li {
   margin-bottom:  -1em; /* Adjust this value to reduce space between bullet points */
