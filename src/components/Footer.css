@@ -35,3 +35,7 @@ footer {
   color: #646cff; /* Change the link color on hover */
 }
 
+img {
+  height: 5vh;
+  width: auto;
+}
