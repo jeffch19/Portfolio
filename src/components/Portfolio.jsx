@@ -8,11 +8,7 @@ import note1 from '../assets/note1.jpg';
 import garden1 from '../assets/garden1.jpg';
 import network1 from '../assets/network1.jpg';
 import employee1 from '../assets/employee1.jpg';
-// import project2 from '../assets/project2.jpg';
-// import project3 from '../assets/project3.jpg';
-// import project4 from '../assets/project4.jpg';
-// import project5 from '../assets/project5.jpg';
-// import project6 from '../assets/project6.jpg';
+
 
 const Portfolio = () => {
     const projects = [
@@ -65,10 +61,11 @@ const Portfolio = () => {
           {projects.map((project, index) => (
             <div key={index} className="portfolio-item">
               <img src={project.image} alt={project.title} className="portfolio-image" />
-              <h3 className="portfolio-title">{project.title}</h3>
+              <h3 className="portfolio-title">
+                <a href={project.deployedLink} target="_blank" rel="noopener noreferrer">{project.title}</a>
+              </h3>
               <p className="portfolio-description">{project.description}</p>
               <div className="portfolio-links">
-                <a href={project.deployedLink} target="_blank" rel="noopener noreferrer">Deployed App</a>
                 <a href={project.githubLink} target="_blank" rel="noopener noreferrer"><img src={imgGit} alt="GitHub" className="footer-image" /></a>
               </div>
             </div>

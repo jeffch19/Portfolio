@@ -1,23 +1,18 @@
-/* .portfolio-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px,  1fr));
-  grid-gap:  20px;
-  padding:  10rem;
-  margin-top: 8rem;
-} */
 .portfolio-grid {
-  display:flex; 
-  gap: 2rem;
+  display: flex;
+  gap:  2rem;
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .portfolio-item {
   background-color: #f8f8f8;
   padding:  20px;
   border-radius:  10px;
   box-shadow:  0  2px  5px rgba(0,  0,  0,  0.1);
-  max-width: 20rem;
+  max-width:  20rem;
   position: relative;
+  transition: transform  0.3s ease, background-color  0.3s ease; /* Add transition for hover effect */
 }
 
 .portfolio-image {
@@ -32,40 +27,45 @@
   font-size:  1.5em;
   font-weight: bold;
   position: absolute;
-  top: 10%;
-  left: 10%;
+  top:  10%;
+  left:  10%;
   color: white;
   padding:  0.5rem;
-  border-radius: 5px;
+  border-radius:  5px;
+  opacity:  0.8; /* Reduce opacity for better visibility */
+  transition: opacity  0.3s ease; /* Add transition for hover effect */
 }
 
 .portfolio-description {
   margin-top:  10px;
   font-size:  1em;
   position: absolute;
-  top: 40%;
-  left: 25%;
+  top:  40%;
+  left:  25%;
   color: white;
+  opacity:  0.8; /* Reduce opacity for better visibility */
+  transition: opacity  0.3s ease; /* Add transition for hover effect */
 }
 
 .portfolio-links {
   margin-top:  10px;
   position: absolute;
-  top: 60%;
-  left: 30%;
+  top:  60%;
+  left:  30%;
   display: flex;
-  gap: 0.5rem;
-  
+  gap:  0.5rem;
 }
 
 .portfolio-links a {
   margin-right:  10px;
   text-decoration: none;
   color: #007bff;
+  transition: color  0.3s ease; /* Add transition for hover effect */
 }
 
 .portfolio-links a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: white;
 }
 
 .portfolio-item:hover {
@@ -73,15 +73,9 @@
   background-color: #e8e8e8;
 }
 
-.portfolio-title:hover {
-  color: #007bff;
+.portfolio-item:hover .portfolio-title,
+.portfolio-item:hover .portfolio-description {
+  opacity:  1; /* Increase opacity on hover */
 }
 
-.portfolio-description:hover {
-  color: #007bff;
-}
-
-.portfolio-links a:hover {
-  text-decoration: underline;
-  color: #0056b3;
-}
+/* ... (other styles) */
