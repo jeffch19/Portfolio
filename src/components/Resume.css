@@ -1,10 +1,26 @@
 /* Resume.css */
 
-.main-content > :first-child {
-  margin-top:  -3em; /* Adjust the value as needed */
+/* .main-content > :first-child {
+  margin-top:  -3em; 
 }
 
 .main-content ul li {
-  margin-bottom:  -1em; /* Adjust this value to reduce space between bullet points */
+  margin-bottom:  -1em; 
+} */
+
+.main-content {
+  min-height: calc(100vh -  140px); /* Adjust the value as needed */
+  margin-bottom:  2rem; /* Add space between main content and footer */
 }
 
+@media (max-width:  768px) {
+  .main-content {
+    padding:  2rem; /* Adjust the padding as needed */
+  }
+  .main-content > :first-child {
+    margin-top:  0; /* Reset the margin-top for smaller screens */
+  }
+  .main-content ul li {
+    margin-bottom:  0.5em; /* Adjust the margin-bottom for smaller screens */
+  }
+}
