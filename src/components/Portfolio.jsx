@@ -5,6 +5,9 @@ import project1 from '../assets/portfolioimg1.jpg';
 import imgGit from '../assets/github.jpg';
 import weather1 from '../assets/weather1.jpg';
 import note1 from '../assets/note1.jpg';
+import garden1 from '../assets/garden1.jpg';
+import network1 from '../assets/network1.jpg';
+import employee1 from '../assets/employee1.jpg';
 // import project2 from '../assets/project2.jpg';
 // import project3 from '../assets/project3.jpg';
 // import project4 from '../assets/project4.jpg';
@@ -35,25 +38,25 @@ const Portfolio = () => {
             githubLink: 'https://github.com/jeffch19/Text-Editor'
           },
           {
-            title: 'Project  1',
-            description: 'Description for Project  1',
-            image: project1,
-            deployedLink: 'https://project1.com',
-            githubLink: 'https://github.com/user/project1'
+            title: 'Garden Bliss',
+            description: 'Full Stack App',
+            image: garden1,
+            deployedLink: 'https://garden-planner19-05823e4485e2.herokuapp.com/',
+            githubLink: 'https://github.com/jeffch19/garden-bliss'
           },
           {
-            title: 'Project  1',
-            description: 'Description for Project  1',
-            image: project1,
-            deployedLink: 'https://project1.com',
-            githubLink: 'https://github.com/user/project1'
+            title: 'Social Network API',
+            description: 'MongoDB',
+            image: network1,
+            deployedLink: 'https://drive.google.com/file/d/1YQwBA454esmb4pfGi5NdZhB3CjfPy6yj/view',
+            githubLink: 'https://github.com/jeffch19/Social-Network-API'
           },
           {
-            title: 'Project  1',
-            description: 'Description for Project  1',
-            image: project1,
-            deployedLink: 'https://project1.com',
-            githubLink: 'https://github.com/user/project1'
+            title: 'Employee Tracker',
+            description: 'SQL',
+            image: employee1,
+            deployedLink: 'https://drive.google.com/file/d/1IKhXlrNKEALmOHDHV26SYN-qSPnP_E1U/view',
+            githubLink: 'https://github.com/jeffch19/employee-tracker'
           },
         // ... Add more projects here
       ];
