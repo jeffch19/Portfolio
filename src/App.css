@@ -128,22 +128,34 @@ main {
   }
 }
 
-@media (max-width:  576px) {
-  /* Styles for viewports up to  576px wide */
+@media (max-width: 576px) {
+  /* Styles for viewports up to 576px wide */
   #root {
-      width:  100%; /* Adjust the width as needed */
+    width: 100%; /* Ensure the root container spans the full viewport width */
   }
+  
   .main-content {
-      padding:  1rem; /* Adjust the padding as needed */
+    padding: 1rem; /* Add padding around the main content */
+    max-width: calc(100% - 2rem); /* Calculate maximum width to account for padding */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
   }
+  
   /* Adjust font sizes for smaller screens */
   h1, h2, h3, h4, h5, h6 {
-      font-size:  0.8em; /* Adjust font size as needed */
+    font-size: 1em; /* Reset font size to the default */
   }
+  
   /* Stack elements vertically */
   .navbar, .main-content {
-      flex-direction: column;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items horizontally */
+  }
+  
+  /* Adjust specific element styles for smaller screens */
+  .navbar {
+    padding: 1rem 0; /* Reduce vertical padding for navbar */
   }
 }
+
 
  
