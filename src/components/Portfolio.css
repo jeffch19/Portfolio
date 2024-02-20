@@ -90,3 +90,24 @@
     margin-top: 12rem;
   }
 }  */
+
+.portfolio-item {
+  position: relative;
+  overflow: hidden; /* Ensure the hover effect is contained within the item */
+}
+
+.portfolio-item:hover .portfolio-image {
+  opacity:  0.1; /* Make the background image less clear on hover */
+}
+
+.portfolio-item:hover .portfolio-title a,
+.portfolio-item:hover .portfolio-description,
+.portfolio-item:hover .footer-image {
+  opacity:   1; /* Make the title, description, and gitimg more clear on hover */
+  color: black; /* Make the title black on hover */
+  text-decoration: underline;
+}
+
+.portfolio-item:hover .portfolio-description {
+  text-decoration: none;
+}

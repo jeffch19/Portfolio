@@ -24,3 +24,9 @@
     margin-bottom:  0.5em; /* Adjust the margin-bottom for smaller screens */
   }
 }
+
+.portfolio-title a {
+  color: white; /* Change text color to white */
+  text-decoration: none;;
+}
+
