@@ -47,7 +47,7 @@ html, body {
   height:  100%;
   margin:  0;
   /* display: flex; */
-  background-color: #fffdd0;
+  background-color: #F5F4F1;
 }
 
 /* Make the main content grow to fill available space */
@@ -57,7 +57,7 @@ main {
 
 .main-content {
   padding:  2rem; /* Add some padding around the main content */
-  background-color: #fffdd0; /* Set a background color */
+  background-color: #F5F4F1; /* Set a background color */
   min-height: calc(100vh -  140px); /* Ensure the main content takes up at least the full height of the viewport minus the height of the navbar */
   margin-top:  40px; /* Adjust the top margin to account for the fixed navbar */
   display: block;

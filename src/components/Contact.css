@@ -3,13 +3,26 @@
 /* Style for the labels to appear above the input fields */
 .form-group label {
   display: block;
-  margin-bottom:  -0.5em; /* Reduce space below the label */
+  margin-bottom:  -0.5em; 
 }
 
 /* Style for the message textarea to be bigger */
 #message {
-  height:  150px; /* Adjust the height as needed */
+  height:  150px; 
   width:  50%;
-  resize: vertical; /* Allow vertical resizing only */
+  resize: vertical; 
   margin-bottom:  -0.5em;
+}
+
+button[type="submit"] {
+  background-color: black; 
+  color: white; 
+  border: none; 
+  padding:  10px  20px; 
+  cursor: pointer; 
+  transition: background-color  0.3s ease; 
+}
+
+button[type="submit"]:hover {
+  background-color: darkblue; 
 }
