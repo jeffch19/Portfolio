@@ -8,7 +8,7 @@
   border-bottom:  1px solid #333;
   background-image: url('../assets/navbar-background.jpg'); 
   background-color: black;
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat; 
   position: fixed; 
   top:  0; 
@@ -45,3 +45,15 @@
 }
 
 
+
+
+.navbar {
+  /* ... other styles ... */
+  padding-left:  45px; /* Add left padding */
+  padding-right:  30px; /* Add right padding */
+}
+
+.navbar ul {
+  /* ... other styles ... */
+  margin-right:  75px; /* Add right margin */
+}
