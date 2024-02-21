@@ -81,16 +81,18 @@
 }
 
 
- @media only screen and (max-width: 600px) {
+@media only screen and (max-width:   600px) {
   .portfolio-grid {
     display: flex;
-    gap: 2rem;
+    gap:   2rem;
     flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 12rem;
-    margin-bottom: 12rem;
+    justify-content: flex-start; /* Align items to the left */
+    margin-top:   6rem;
+    margin-bottom:   7rem;
   }
-} 
+}
+
+
 
 .portfolio-item {
   position: relative;
@@ -112,3 +114,4 @@
 .portfolio-item:hover .portfolio-description {
   text-decoration: none;
 }
+
