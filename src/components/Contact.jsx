@@ -16,8 +16,8 @@ const useForm = (initialState, validate) => {
     const validationErrors = validate(values);
     setErrors(validationErrors);
     if (Object.keys(validationErrors).length ===  0) {
-      // Send form data to server or handle submission
-      console.log(values);
+      // Open the user's email client with a pre-filled email
+      window.location.href = `mailto:17jcummings@gmail.com?subject=${encodeURIComponent(values.name)}&body=${encodeURIComponent(values.message)}`;
       // Reset form after submission
       setValues(initialState);
     }
