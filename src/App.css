@@ -110,23 +110,25 @@ main {
   }
 }
 
-@media (max-width:  768px) {
-  /* Styles for viewports up to  768px wide */
+@media (max-width: 768px) {
+  /* Styles for viewports up to 768px wide */
   #root {
-      width:  100vw; /* Adjust the width as needed */
+    width: 100%; /* Adjust the width to fill the viewport */
   }
   .main-content {
-      padding:  1rem; /* Adjust the padding as needed */
+    padding: 1rem; /* Adjust the padding as needed */
+    margin-top: 80px; /* Add margin-top to create space between content and header */
   }
   /* Adjust font sizes for smaller screens */
   h1, h2, h3, h4, h5, h6 {
-      font-size:  1em; /* Adjust font size as needed */
+    font-size: 1em; /* Adjust font size as needed */
   }
   /* Stack elements vertically */
   .navbar, .main-content {
-      flex-direction: column;
+    flex-direction: column;
   }
 }
+
 
 @media (max-width: 576px) {
   /* Styles for viewports up to 576px wide */

@@ -11,6 +11,7 @@
 
 @media (max-width:  768px) {
   .main-content {
-    margin-top:  80px; 
+    padding-top:   60px; /* Adjust this value to match the height of your header */
+    margin-top:  0; 
   }
 }
