@@ -9,4 +9,8 @@
   width: 90%; /*or 90vw*/
 }
 
-
+@media (max-width:  768px) {
+  .main-content {
+    margin-top:  80px; 
+  }
+}
