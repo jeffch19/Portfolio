@@ -159,5 +159,19 @@ main {
   }
 }
 
+/* Media query for portrait orientation (828px x  1792px) */
+@media screen and (width:  828px) and (height:  1792px) {
+  .main-content {
+    padding-top:  80px; /* Adjust this value as needed */
+    margin-top:  0; /* Remove the margin-top */
+  }
+}
 
+/* Media query for landscape orientation (414px x  896px) */
+@media screen and (width:  414px) and (height:  896px) {
+  .main-content {
+    padding-top:  80px; /* Adjust this value as needed */
+    margin-top:  0; /* Remove the margin-top */
+  }
+}
  
