@@ -41,11 +41,11 @@ const Portfolio = () => {
             githubLink: 'https://github.com/jeffch19/garden-bliss'
           },
           {
-            title: 'Social Network API',
-            description: 'MongoDB',
+            title: 'Book Search',
+            description: 'MERN Stack',
             image: network1,
-            deployedLink: 'https://drive.google.com/file/d/1YQwBA454esmb4pfGi5NdZhB3CjfPy6yj/view',
-            githubLink: 'https://github.com/jeffch19/Social-Network-API'
+            deployedLink: 'https://book-search-engine-x5d0.onrender.com',
+            githubLink: 'https://github.com/jeffch19/Book-search-engine.git'
           },
           {
             title: 'Employee Tracker',
