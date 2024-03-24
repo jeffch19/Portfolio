@@ -15,6 +15,7 @@ const Resume = () => {
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>Javascript</li>
+                    <li>Python</li>
                     <li>jQuery</li>
                     <li>responsive design</li>
                     <li>React</li>
